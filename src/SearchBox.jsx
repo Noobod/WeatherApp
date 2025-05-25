@@ -28,7 +28,7 @@ export default function SearchBox({updateInfo}) {
     console.log(result);
     return result;
     } catch(error) {
-      throw err;
+      throw error;
     }
   };
 
